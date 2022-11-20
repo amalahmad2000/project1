@@ -1,0 +1,98 @@
+import java.util.Scanner;
+public class Main{
+    public static void main (String args [])
+    {
+        Scanner input = new Scanner (System.in);
+
+        int num , num1 , num2 ,num3;
+        int result = 0;
+        do {
+            System.out.println("choose an operation from the list or zero to quit :");
+            System.out.println("1 : Sum two numbers");
+            System.out.println("2 : Subtract two numbers");
+            System.out.println("3 : Multiply two numbers");
+            System.out.println("4 : Divide two numbers");
+            System.out.println("5 : Find max of 3 numbers");
+            System.out.println("6 : Find min of 3 numbers");
+            System.out.println("7 : Avg of 3 numbers");
+            num = input.nextInt();
+
+            switch (num) {
+
+                case 1:
+                    System.out.println("Number1:");
+                    num1 = input.nextInt();
+                    System.out.println("Number2:");
+                    num2 = input.nextInt();
+                    // then write SUM code to give RESULT value
+                    System.out.println("The result is: " + result);
+                    break;
+
+                case 2:
+                    System.out.println("Number1:");
+                    num1 = input.nextInt();
+                    System.out.println("Number2:");
+                    num2 = input.nextInt();
+                    // then write SUBTRACT code to give RESULT value
+                    System.out.println("The result is: " + result);
+                    break;
+
+                case 3:
+                    System.out.println("Number1:");
+                    num1 = input.nextInt();
+                    System.out.println("Number2:");
+                    num2 = input.nextInt();
+                    // then write SUM code to give RESULT value
+                    System.out.println("The result is: " + result);
+                    break;
+
+                case 4:
+                    System.out.println("Number1:");
+                    num1 = input.nextInt();
+                    System.out.println("Number2:");
+                    num2 = input.nextInt();
+                    // then write MULTIPLY code to give RESULT value
+                    System.out.println("The result is: " + result);
+                    break;
+
+                case 5:
+                    System.out.println("Number1:");
+                    num1 = input.nextInt();
+                    System.out.println("Number2:");
+                    num2 = input.nextInt();
+                    System.out.println("Number3:");
+                    num2 = input.nextInt();
+                    // then write MAX code to give RESULT value
+                    System.out.println("The result is: " + result);
+                    break;
+
+                case 6:
+                    System.out.println("Number1:");
+                    num1 = input.nextInt();
+                    System.out.println("Number2:");
+                    num2 = input.nextInt();
+                    System.out.println("Number3:");
+                    num2 = input.nextInt();
+                    // then write MIN code to give RESULT value
+                    System.out.println("The result is: " + result);
+                    break;
+
+                case 7:
+                    System.out.println("Number1:");
+                    num1 = input.nextInt();
+                    System.out.println("Number2:");
+                    num2 = input.nextInt();
+                    System.out.println("Number3:");
+                    num2 = input.nextInt();
+                    // then write AVG code to give RESULT value
+                    System.out.println("The result is: " + result);
+                    break;
+
+            }
+
+
+        } while (num != 0);
+
+
+    }
+}
